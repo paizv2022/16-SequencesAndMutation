@@ -34,12 +34,13 @@ def main():
     # ------------------------------------------------------------------
     # 5. Attempts to change the INSIDES of the tuple,
     #       that is, attempts to MUTATE the tuple.
-    # 6. Attemps to change the INSIDES of the string,
+    # 6. Attempts to change the INSIDES of the string,
     #       that is, attempts to MUTATE the string.
     # These cause RUN-TIME errors.
     # ------------------------------------------------------------------
     numbers[2] = 77
     s[0] = 'X'
+
 
 # ----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being
